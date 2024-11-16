@@ -1,0 +1,35 @@
+/* components/HeroSection.module.css */
+.clipBackgroundShape {
+    clip-path: polygon(100% 0, 100% 100%, 50% 100%);
+    background: linear-gradient(to top right, #63b3ed, #4299e1); /* تدرج مشابه للصورة */
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: skewX(-12deg);
+  }
+  
+  .heroContainer {
+    height: 400px;
+    background-color: #f7fafc; /* لون الخلفية */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .contentContainer {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .imageWrapper {
+    width: 12rem; /* عرض للصورة */
+    height: 12rem;
+    background-color: white;
+    border-radius: 9999px; /* دائري */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
